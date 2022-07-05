@@ -3,3 +3,13 @@
   border-radius: 2rem;
   padding: 3rem;
 }
+.chart h1 {
+  color: var(--dark-brown);
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+
+.bars {
+  display: flex;
+  justify-content: space-between;
+}
