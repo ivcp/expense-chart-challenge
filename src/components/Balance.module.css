@@ -1,0 +1,26 @@
+.balance {
+  background-color: var(--soft-red);
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+  border-radius: 2rem;
+  color: var(--very-pale-orange);
+  margin-bottom: 2rem;
+}
+
+.balance p {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.logo {
+  background: url('../../public/logo.svg') center no-repeat;
+  background-size: 100%;
+  width: 7rem;
+  height: 7rem;
+}

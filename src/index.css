@@ -24,7 +24,8 @@ body {
   font-family: 'DM Sans', sans-serif;
   background-color: var(--cream);
   height: 100vh;
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  justify-content: center; */
+  justify-content: center;
+  align-items: center;
 }
