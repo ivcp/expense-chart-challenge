@@ -1,11 +1,11 @@
 .balance {
-  background-color: var(--soft-red);
+  background-color: hsl(var(--soft-red));
   display: flex;
   justify-content: space-between;
-  padding: 3rem;
+  padding: 2.6rem;
   border-radius: 2rem;
   color: var(--very-pale-orange);
-  margin-bottom: 2rem;
+  margin-bottom: 2.4rem;
 }
 
 .balance p {

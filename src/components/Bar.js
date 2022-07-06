@@ -9,7 +9,8 @@ const Bar = ({ day, amount, today }) => {
           className={styles.fill}
           style={{
             '--height': `${amount}%`,
-            backgroundColor: today ? 'var(--cyan)' : ' var(--soft-red)',
+            '--today': today && 'hsl(var(--cyan))',
+            '--today-hover': today && 'hsl(var(--cyan), 0.6)',
           }}
         >
           <div className={styles.expense}>$55.31</div>

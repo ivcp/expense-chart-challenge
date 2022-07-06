@@ -15,14 +15,14 @@
 }
 
 .fill {
-  background-color: var(--soft-red);
+  background-color: var(--today, hsl(var(--soft-red)));
   height: var(--height);
   border-radius: 0.5rem;
   transition: all 0.2s ease;
 }
 
 .bar:hover .fill {
-  opacity: 0.7;
+  background-color: var(--today-hover, hsl(var(--soft-red), 0.7));
 }
 
 .expense {
@@ -37,6 +37,7 @@
   font-weight: 700;
   color: var(--very-pale-orange);
   visibility: hidden;
+  opacity: 1;
 }
 
 .bar:hover .expense {
