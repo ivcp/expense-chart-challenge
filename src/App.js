@@ -8,7 +8,7 @@ function App() {
       <Balance />
       <Chart />
       <div className={styles.attribution}>
-        Challenge by
+        Challenge by{' '}
         <a href="https://www.frontendmentor.io?ref=challenge">
           Frontend Mentor
         </a>

@@ -1,7 +1,5 @@
-import React, { useState } from 'react';
 import Bar from './Bar';
 import data from '../../src/data.json';
-
 import styles from './Chart.module.css';
 
 const Chart = () => {
@@ -18,18 +16,19 @@ const Chart = () => {
             key={day.day}
             day={day.day}
             today={today === i}
-            amount={(day.amount * 100) / highestAmount}
+            amount={day.amount}
+            height={(day.amount * 100) / highestAmount}
           />
         ))}
       </div>
       <hr />
-      <div>
+      <div className={styles.total}>
         <div>
           <p>Total this month</p>
-          <div>$478.33</div>
+          <div className={styles['total-amount']}>$478.33</div>
         </div>
         <div>
-          <div>+2.4%</div>
+          <div className={styles.difference}>+2.4%</div>
           <p>from last month</p>
         </div>
       </div>
